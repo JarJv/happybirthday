@@ -76,6 +76,47 @@ header, footer{
 	background-color: #ADFF2F;
 }
 
+@media only screen and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+
+	.bluepost{
+		width: 30%;
+		margin-left: 6px;
+	}
+
+	.greenpost{
+		width: 30%;
+		margin-left: 6px;
+	}
+
+
+	.redpost{
+		width: 30%;
+		margin-left: 6px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px){
+	.bluepost{
+		width: 30%;
+		margin-left: 20px;
+	}
+
+	.greenpost{
+		width: 30%;
+		margin-left: 20px;
+	}
+
+
+	.redpost{
+		width: 30%;
+		margin-left: 20px;
+	}
+}
+
 h2{
 	font-size: 40px;
 	text-align: center;
